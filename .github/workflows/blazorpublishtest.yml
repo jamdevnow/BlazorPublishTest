@@ -58,7 +58,5 @@ jobs:
           server: "nt19.unoeuro.com"
           username: pmuk-test.dk
           password: ${{ secrets.ftp_password }}
-          protocol: ftps
-          port: 21
           local-dir: "/home/runner/work/BlazorPublishTest/BlazorPublishTest/"
           server-dir: "/public_html/"
